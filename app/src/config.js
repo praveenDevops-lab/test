@@ -55,7 +55,7 @@ module.exports = {
             2. Get started for free 
             3. Copy YourNgrokAuthToken: https://dashboard.ngrok.com/get-started/your-authtoken
         */
-        authToken: '2QxY3n0a7iNBHwdDKHlFikyoc8x_7kC24d7BuLiGZcsepan3C',
+        authToken: '',
     },
     api: {
         // app/api
@@ -180,7 +180,7 @@ module.exports = {
             listenIps: [
                 {
                     ip: '0.0.0.0',
-                    announcedIp: '52.74.166.77', // replace by 'public static IPV4 address' https://api.ipify.org (type string --> 'xx.xxx.xxx.xx' not xx.xxx.xxx.xx)
+                    announcedIp: '35.198.196.16', // replace by 'public static IPV4 address' https://api.ipify.org (type string --> 'xx.xxx.xxx.xx' not xx.xxx.xxx.xx)
                 }, //announcedIp: '' will be auto-detected on server start, for docker localPC set '127.0.0.1'
             ],
             initialAvailableOutgoingBitrate: 1000000,
